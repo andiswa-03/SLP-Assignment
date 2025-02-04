@@ -1,0 +1,49 @@
+.jumbotron {
+    background-color: #f5f5dc ;
+}
+body {
+    background-color: #f5f5dc ; /* Cream White */
+    color: #333; 
+}
+.btn {
+    background-color: #155724 ;
+    border-color: #155724 ;
+    color: #fff ;
+}
+
+.btn:hover {
+    background-color: #0c3e1a ;
+    border-color: #0a3315 ;
+}
+/* Header and Footer Styling */
+.header,{
+    background-color: #0c3e1a ; /* Dark Green */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.Footer{
+	background-color: #0c3e1a ; /* Dark Green */
+    color: ;
+    padding: 15px;
+    text-align: center;
+}
+/* Optional: Improve Navbar Look */
+.navbar {
+    background-color: #0c3e1a !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.card-header {
+            background-color: #0c3e1a !important; /* Dark Green */
+            color: white !important;
+            font-weight: bold;
+        }
+		
+.card {
+            margin-bottom: 20px;
+            background-color: #f5f5dc !important; /* Cream White */
+        }

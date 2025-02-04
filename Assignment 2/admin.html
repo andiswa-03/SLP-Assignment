@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Society Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="custom.css">
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src=".\images\hks.jpeg" style="width:50px;height:50px;"class="img-thumbnail"></div> <a class="navbar-brand" href="#">Hacker Society</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="tools tuesday.html">Tools Tuesday</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="admin.html">Admin</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pictures.html">Pictures</a></li>
+                </ul>
+               </div>
+               </nav>
+            <body>
+                <div class="container mt-5">
+                    <h2 style="text-align: center;"class="mb-4">Create New Article</h2>
+                    <form>
+                        <!-- Article Title -->
+                        <div class="form-group">
+                            <label for="articleTitle">Article Title</label>
+                            <input type="text" class="form-control" id="articleTitle" placeholder="Enter article title" required>
+                        </div>
+                        
+                        <!-- Choose Image -->
+                        <div class="form-group">
+                            <label for="articleImage">Choose an Image</label>
+                            <select class="form-control" id="articleImage">
+                                <option value="">Select an image</option>
+                                <option value="image1.jpg">Image 1</option>
+                                <option value="image2.jpg">Image 2</option>
+                                <option value="image3.jpg">Image 3</option>
+                            </select>
+                        </div>
+                        
+                        <!-- Article Text -->
+                        <div class="form-group">
+                            <label for="articleText">Article Text</label>
+                            <textarea class="form-control" id="articleText" rows="5" placeholder="Write your article here..." required></textarea>
+                        </div>
+                        
+                        <!-- Article Category -->
+                        <div class="form-group">
+                            <label for="articleCategory">Article Category</label>
+                            <input type="text" class="form-control" id="articleCategory" placeholder="Enter category" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+                </div>            
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Hacker Society | All Rights Reserved</p>
+</footer>
+</html>

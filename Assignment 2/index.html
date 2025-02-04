@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Society Blog</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="custom.css">
+    </head>
+
+    
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src=".\images\hks.jpeg" style="width:50px;height:50px;"class="img-thumbnail"></div> <a class="navbar-brand" href="#">Hacker Society</a> <div class="col" >
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tools tuesday.html">Tools Tuesday</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin.html">Admin</a>
+                </li>
+                <li class ="nav-item">
+                    <a class = "nav-link" href ="pictures.html">Pictures</a>
+                  </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="jumbotron text-center bg-img src./images/hks.jpeg" text-white>
+        <h1 class="display-4">WELCOME TO HACKER SOCIETY</h1>
+        <p class="lead">Explore tools, events, and the world of tech geeks!</p>
+        <a href="tools tuesday.html" class="btn btn-dark btn-lg">DISCOVER TOOLS</a>
+        <a href="events.html" class="btn btn-dark btn-lg">UPCOMING EVENTS</a>
+        
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="container py-5">
+        <div class="">
+        <h2 class="text-center">About Us </h2>
+        <p class="text-center">Hacker Society is a school organization dedicated to empowering tech enthusiasts. We explore cutting-edge tools, host engaging tech events, and build a community for innovation and collaboration.</p>
+         
+        </div>
+    </section>
+
+    <section>
+        <div class="col-md-4">
+            <div class="sidebar text-center">
+                <h4>Today's Date</h4>
+                <p id="currentDate"></p>
+                <h1>💻</h1>
+            </div>
+        </div>
+        </section>
+
+    <!-- Tech Hacks Thursday-->
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Hacker Society | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // JavaScript to Display Current Date in Real Time
+        function updateDateTime() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            document.getElementById("currentDate").innerText = now.toLocaleDateString("en-US", options);
+        }
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery.js" ></script>
+    <script src="/.js/popper.js" ></script>
+    <script src="./js/bootstrap.min.js" ></script>
+  </body>
+</html>
